@@ -13,4 +13,3 @@ services:
       - "8080:80"  # Expose nginx on port 8080 on localhost
     depends_on:
       - flask_app
-      s
