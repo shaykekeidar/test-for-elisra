@@ -3,6 +3,8 @@ services:
   flask_app:
     image: shaykekeidar/elisra-task-one:latest
     container_name: flask_app
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
     expose:
       - "5000"
 
