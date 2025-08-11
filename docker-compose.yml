@@ -10,6 +10,6 @@ services:
     image: shaykekeidar/elisra-task-two:latest
     container_name: nginx_proxy
     ports:
-      - "8080:80"  # Expose nginx on port 8080 on localhost
+      - "8081:80"
     depends_on:
       - flask_app
